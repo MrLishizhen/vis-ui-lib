@@ -1,0 +1,26 @@
+@import '../style/common.less';
+.@{btnPrefix}{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:40px;
+    padding:0 15px;
+    border:none;
+    border-radius:3px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    background-color: #fff;
+    color:#000;
+    border:1px solid #333;
+    
+
+    &-highlight{
+       background-color: @heima-ui-highlight-bg;
+       color:#fff; 
+    }
+    &-disabled{
+        background-color: #fff;
+        color:#999;
+        border:1px solid #999;
+    }
+}
